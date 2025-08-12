@@ -1,0 +1,23 @@
+# Ignorer fichiers/dossiers inutiles
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.db
+*.log
+
+# Ignorer virtualenv
+env/
+venv/
+.venv/
+
+# Ignorer fichiers Git
+.git
+.gitignore
+
+# Ignorer fichiers locaux
+.DS_Store
+*.tmp
+
+# Ignorer données volumineuses
+data/
